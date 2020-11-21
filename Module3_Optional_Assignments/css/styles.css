@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+
+body{
+	background-color: white;
+	text-align: center;
+	width: 100%;
+}
+
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+
+}
+
+/*HEADER*/
+.navbar{
+	background-color:  #400080;
+	font-size: 1.5em;
+}
+
+.navbar-default .navbar-brand{
+	color: white;
+}
+
+.navbar-brand{
+	font-size: 1.5em;
+	margin: 10px;
+}
+
+#nav-list{
+	text-align: center;
+}
+
+li{
+	color: #999;
+}
+
+/*END OF HEADER*/
+
+/*MAIN BODY CONTENT*/
+
+.row{
+	margin: 10px;
+	padding: 30px;
+}
+
+.wb{
+padding: 5px;
+background-color: white;
+}
+
+.sec{
+	height: 600px;
+	background-color:  blue;
+	padding: 5px;
+	color : black;
+	text-align: center;
+	position: relative;
+}
+
+.section_head , .section_body{
+	margin: 5px;
+	font-size: 1.5em;
+	color : black;
+
+}
+
+.section_head{
+	font-size: 2em;
+	font-style: bold;
+}
+
+.eof_sec{
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+}
+
+a{
+	color: black;
+}
+
+a:hover, a:focus {
+	color: white;
+}
+
+#Menu{
+	margin: 3px;
+	font-size: 3em;
+	font-style: bold;
+	text-align: center;
+
+}
+/*END OF MAIN BODY CONTENT*/
